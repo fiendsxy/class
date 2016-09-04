@@ -15,7 +15,7 @@ username=decodeURI(username);
 var userid=getQueryString("userid");
 
 //连接websocket后端服务器
-//var socket = io.connect('ws://fiendsxy-class.daoapp.io');
+var socket = io.connect('ws://fiendsxy-test.daoapp.io');
 //var socket= io.connect('ws://192.168.3.10:3000/haishen');
 //var socket= io.connect('ws://4k.evideocloud.com/haishen');
 
